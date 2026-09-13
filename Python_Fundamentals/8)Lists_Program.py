@@ -22,3 +22,23 @@ print(numbers)
 # Allows different data types
 data = [10,"Python",3.14,True]
 print(data)
+
+#----------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------#
+#Accessing list elements
+"""
+In python, accessing list elements means retrieving or using individual values stored inside a list.
+   1) Indexing(Positive and Negative)
+   2) slicing
+   3) Accessing nested list
+   4) using len() function
+"""
+# 1) Indexing(Positive and Negative)
+fruits = ["Apple","Mango","Orange","Banana","Grapes"]
+print(fruits)
+print(fruits[0])
+print(fruits[2])
+print(fruits[-1])
+print(fruits[-3])
+
+# 2) Slicing
