@@ -248,4 +248,30 @@ print("kartik 13".isalnum()) #--> False
 print("Kartik@123".isalnum()) #--> False
 # Space and special characters make it False.
 
-# d) 
+# d) isspace
+x = " "
+print(x.isspace())    #--> True
+print(" ".isspace())  #--> True
+print("  ".isspace()) #--> True
+print("\t".isspace()) #--> True
+print("\n".isspace()) #--> True
+print("kartik".isspace()) #--> False
+print("kartik ".isspace()) #--> False
+
+# e) islower()
+name = "kartik"
+print(name.islower()) #--> True
+print("python".islower()) #--> True
+print("Python".islower()) #--> False
+print("PYTHON".islower()) #--> False
+print("pthon123".islower()) #--> True
+
+# d) isupper()
+name = "KARTIK"
+print(name.isupper()) #--> True
+print("PYTHON".isupper()) #--> True
+print("Python".isupper()) #--> False
+print("python".isupper()) #--> False
+print("PYTHON123".isupper()) #--> True
+
+#----------------------------------------------------------------------------------------------#
