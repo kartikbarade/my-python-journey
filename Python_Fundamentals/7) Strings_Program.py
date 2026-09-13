@@ -275,3 +275,61 @@ print("python".isupper()) #--> False
 print("PYTHON123".isupper()) #--> True
 
 #----------------------------------------------------------------------------------------------#
+"""
+ iv) Modification Methods :- These methods are used to create a modified version of a string
+     Python strings are immutable, so these methods don't change the original string. They 
+     return a new string.
+
+     a) replace()
+     b) strip()
+     c) lstrip()
+     d) rstrip()
+     e) split()
+     f) join()
+"""
+
+# a) replace()
+text = "I like Java"
+new_text = text.replace("Java","Python")
+print(new_text)
+
+text= "Java Java Java"
+print(text.replace("Java","Python"))
+print(text.replace("Java","Python",2)) # using count
+
+# b) strip()
+name = " kartik "
+print(name.strip())
+
+sen = " I like cricket "
+print(sen.strip())
+
+# c) lstrip()
+text = " python "
+print(text.lstrip()) # Only the left-side spaces are removed
+
+# d) rstrip()
+text = " Python "
+print(text.rstrip()) # Only the Right-side spaces are removed
+
+# e) split()
+text = "Python is programming language"
+result = text.split()
+print(result)
+
+data = "Java,Python,C++" # Using a separate
+print(data.split(","))
+date = "13-09-2026"
+print(date.split("-"))
+
+# f) join()
+words = ["Python","Java","C++"]
+result = " ".join(words)
+print(result)
+
+number = ["10","20","30"] # Using -
+result = "-".join(number)
+print(result)
+
+
+
