@@ -28,6 +28,8 @@ name2 = "M" + name2[1:]
 print(name2) # Output: Mython
 
 
+#----------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------#
 # Indexing in String---
 Student_name = "Omkar"
 print(Student_name[0])
@@ -63,7 +65,7 @@ College_name = input("Enter your college name : ")
 print(f"My College name is {College_name}")
 print(f"My College 1st letter is {College_name[0]}")
 
-
+#----------------------------------------------------------------------------------------------#
 # Slicing ---
 """ In Python, slicing means extracting part of a sequence such as a string, list, and tuple
     String Slicing in python is way to get specific parts of a string by using start, end and values(steps).
@@ -79,6 +81,7 @@ print(text[:6:2])
 print(text[::-1])
 print(len(text)) 
 
+#----------------------------------------------------------------------------------------------#
 #----------------------------------------------------------------------------------------------#
 # String Operations
 """ Python Provides several operators to work with strings.
@@ -130,6 +133,8 @@ print("banana">="apple")
 # f) less than or equal
 print("apple"<="banana")
 
+#----------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------#
 """
 Built in string fumctions
     a) len()
@@ -156,7 +161,7 @@ print(sorted(x,reverse=True)) #desending order
 num = "51324"
 print(sorted(num))
 
-
+#----------------------------------------------------------------------------------------------#
 #----------------------------------------------------------------------------------------------#
 """
 String Methods 
@@ -331,5 +336,6 @@ number = ["10","20","30"] # Using -
 result = "-".join(number)
 print(result)
 
-
+#----------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------#
 
