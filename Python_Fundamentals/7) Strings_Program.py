@@ -4,10 +4,10 @@
 String are a sequence of characters written inside quotes.
 It include letter,numbers,synbols and spaces. String are immutable in nature.
 
-
 """
 string = "Hello World!"
 print(string)
+
 
 # Creating a String
 # String can be created by enclosing characters inside both single quotes and double quptes.
@@ -69,7 +69,6 @@ print(f"My College 1st letter is {College_name[0]}")
     String Slicing in python is way to get specific parts of a string by using start, end and values(steps).
 
 """
-
 text = "Hello I'm kartik"
 print(text)
 print(text[0:3])
@@ -80,6 +79,7 @@ print(text[:6:2])
 print(text[::-1])
 print(len(text)) 
 
+#----------------------------------------------------------------------------------------------#
 # String Operations
 """ Python Provides several operators to work with strings.
     The important ones are :
@@ -88,54 +88,46 @@ print(len(text))
     3) Membership (in, not in)
     4) Comparison Operators 
 """ 
-    # 1) Concatenation (+)
-
+# 1) Concatenation (+)
 first_name = "Kartik"
 last_name = "Barade"
 full_name = first_name + " " + last_name
 print(full_name)
 
-
-    # 2) Repetition (*)
-
+# 2) Repetition (*)
 text = "Python"
 print(text * 3)
 
-    # 3) membership (in, not in)
+# 3) membership (in, not in)
 state = "Maharashtra"
 print("s" in state)
-
 country = "India"
 print("k" in country)
-
 animal = "elephant"
 print("s" not in animal)
 print("e" not in animal)
 
-    # 4) Comparison Operators
-    # a) Equal to
-
+# 4) Comparison Operators
+# a) Equal to
 a = "Python"
 b = "Python"
-
 print(a==b)
 
-    # b) Not equal to
+# b) Not equal to
 c = "Java"
 d = "C"
 print(c!=d)
 
-
-    # c) Greater than 
+# c) Greater than 
 print("Banana">"Apple")
 
-    # d) Less than
+# d) Less than
 print("Apple"<"Banana")
 
-    # e) Greate than or equal
+# e) Greate than or equal
 print("banana">="apple")
 
-    # f) less than or equal
+# f) less than or equal
 print("apple"<="banana")
 
 """
@@ -146,7 +138,6 @@ Built in string fumctions
     d) sorted()
     e) str()
 """
-
 name = "kartik"
 print(len(name))
 
@@ -165,6 +156,8 @@ print(sorted(x,reverse=True)) #desending order
 num = "51324"
 print(sorted(num))
 
+
+#----------------------------------------------------------------------------------------------#
 """
 String Methods 
  i)case conversion method :- These methods are used to change the case of characters in a string.
@@ -175,44 +168,53 @@ String Methods
    e)swapcase()
 """
 
+#a)lower()
 name = "KARTIK BARADE"
 result = name.lower()
 print(result)
 
+#b)upper()
 name = "kartik barade"
 print(name.upper())
 
-
+#c)capitalize()
 text = "python programming Language"
 print(text.capitalize())
+#d)title()
 print(text.title())
 
-
+#e)swapcase()
 sentence = 'My nAme IS KaRtiK'
 print(sentence.swapcase())
 
+#----------------------------------------------------------------------------------------------#
 """
-  ii) Searching methods :- Searching methods are used to find a character or substring inside a string.
+ ii) Searching methods :- Searching methods are used to find a character or substring inside a string.
     a) find()
     b) rfind()
     c) index()
     d) count()
 """
-
+# a) find()
 text = "Python Programming"
 print(text.find("P"))
 
+# b) rfind()
 text = "banana"
 print(text.rfind("a"))
 
+# c) index()
 text = "Hello Python"
 print(text.index("Python"))
 
+# d) count()
 word = "banana"
 print(word.count("a"))
 
+
+#----------------------------------------------------------------------------------------------#
 """ 
-  iii) Cheching methods :- checking methods are used to check some condition about a string.
+ iii) Cheching methods :- checking methods are used to check some condition about a string.
        They usually return either true or false
      a) isalpha()
      b) isdigit()
@@ -221,22 +223,29 @@ print(word.count("a"))
      e) islower()
      f) isupper()
 """
-
-# isalpha
+# a) isalpha
 text = "Language"
-print(text.isalpha())
+print(text.isalpha())  #-->True
 num = "123"            # Numbers are not alphabets.
 print(num.isalpha())
 word = "python "       # Space are not alphabets.
 print(word.isalpha())
-
 print("Java123".isalpha())
 
-# isdigit
+# b) isdigit
 age = "21"
 print(age.isdigit())
-
 print("123a".isdigit()) #--> False
 print("12.5".isdigit()) #--> False , Note :- "12.5 is not a considered a digit only string because (.) is not a digit"
 print("123 ".isdigit()) #--> False
-# Note :- "12.5 is not a considered a digit only string because (.) is not a digit"
+
+# c) isalnum()
+data = "kartik13"
+print(data.isalnum()) #--> True
+print("kartik".isalnum()) #-->True
+print("123".isalnum()) #-->True
+print("kartik 13".isalnum()) #--> False 
+print("Kartik@123".isalnum()) #--> False
+# Space and special characters make it False.
+
+# d) 
