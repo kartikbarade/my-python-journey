@@ -213,6 +213,7 @@ print(word.count("a"))
 
 """ 
   iii) Cheching methods :- checking methods are used to check some condition about a string.
+       They usually return either true or false
      a) isalpha()
      b) isdigit()
      c) isalnum()
@@ -232,6 +233,10 @@ print(word.isalpha())
 print("Java123".isalpha())
 
 # isdigit
-age = "121"
+age = "21"
 print(age.isdigit())
 
+print("123a".isdigit()) #--> False
+print("12.5".isdigit()) #--> False , Note :- "12.5 is not a considered a digit only string because (.) is not a digit"
+print("123 ".isdigit()) #--> False
+# Note :- "12.5 is not a considered a digit only string because (.) is not a digit"
