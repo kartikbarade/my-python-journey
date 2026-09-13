@@ -42,3 +42,9 @@ print(fruits[-1])
 print(fruits[-3])
 
 # 2) Slicing
+numbers = [10,20,30,40,50]
+print(numbers[1:4])
+print(numbers[:3])
+print(numbers[2:])
+print(numbers[0:5:2])
+print(numbers[::-1]) # reverse list using slicing
