@@ -176,3 +176,13 @@ print(num2)
 number = [100,200,300,400,500]
 print(700 not in number)
 print(300 not in number)
+
+# iv) Iterating through lists
+# a) using for loop
+numbers = [10,20,30]
+for number in numbers:
+    print(numbers)
+
+numbers = [10, 20, 30, 40]
+for i in range(len(numbers)):
+    print(numbers[i])
