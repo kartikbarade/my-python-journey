@@ -18,11 +18,11 @@ print("=" * 50)
 username_valid = True
 
 # Check username length
-if len(username) < 5:
+if len(username) > 5:
+    print("✓ Username length is valid.")
+else:
     print("X Username must contain at least 5 characters.")
     username_valid = False
-else:
-    print("✓ Username length is valid.")
 
 # Check username contains only letters and numbers
 if username.isalnum():
