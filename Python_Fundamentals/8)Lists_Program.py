@@ -110,7 +110,15 @@ print(team)
 numbers = [6,3,2,5,1]
 numbers.remove(5)
 print(numbers)
-numbers.remove(7)
-print(numbers) # ValueError: list.remove(x): x not in list
+#numbers.remove(7)
+#print(numbers) # ValueError: list.remove(x): x not in list
 
   # b) pop()
+numbers = [1,2,3,4,5,6]
+numbers.pop(3)
+print(numbers)
+data = ["kartik",21,"Pune",12000,"31-01-2026"]
+data.pop()
+print(data)
+
+ # c) clear()
