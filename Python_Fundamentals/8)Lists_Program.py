@@ -79,4 +79,18 @@ data = [1,2,3,4,5,6] # Multiple elements can also be change
 data [1:4] = [2.1,3.1,4.1] 
 print(data)
 
-# 2) 
+#----------------------------------------------------------------------------------------------#
+# 2) Adding Elements
+  # a) append
+number = [1,2,3]
+number.append(4)
+print(number)
+
+data = [10,20,30,40] # append() adds only object/elements
+data.append([50,60]) # [50,60] becomes 1 elements
+print(data)
+
+  # b) insert
+
+#----------------------------------------------------------------------------------------------#
+
