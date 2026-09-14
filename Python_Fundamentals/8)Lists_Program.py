@@ -104,6 +104,13 @@ team = ["Shreya","Omkar","kartik"]
 print(team)
 team.extend(["suyash","rudra","satish"]) # here the elements suyash,rudra,satish are addded individually.
 print(team)
-
 #----------------------------------------------------------------------------------------------#
+# 3) Removing elements
+  # a) remove()
+numbers = [6,3,2,5,1]
+numbers.remove(5)
+print(numbers)
+numbers.remove(7)
+print(numbers) # ValueError: list.remove(x): x not in list
 
+  # b) pop()
