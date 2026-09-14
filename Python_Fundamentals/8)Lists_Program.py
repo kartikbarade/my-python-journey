@@ -91,6 +91,13 @@ data.append([50,60]) # [50,60] becomes 1 elements
 print(data)
 
   # b) insert
+number = [100,200,300]
+number.insert(1,600)
+print(number)
+
+data = ["kartik",21,"Pune",12200]
+data.insert(2,["ISBM","AIML"])
+print(data)
 
 #----------------------------------------------------------------------------------------------#
 
