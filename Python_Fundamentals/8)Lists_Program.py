@@ -127,3 +127,14 @@ numbers.clear()
 print(numbers)
 
   # d) del
+numbers = [100,200,300,400,500]
+del numbers[1]
+print(numbers)
+
+data = [1,"kartik",21,"Pune",12000,"31-01-2026","IT"]
+del data[1:4]
+print(data)
+
+# number = [1,2,3,4]
+# del number
+# print(number) # NameError
