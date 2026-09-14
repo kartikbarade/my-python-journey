@@ -158,3 +158,16 @@ a = [10,20,30]
 b = [40,50,60]
 c = a +b
 print(c)
+
+# ii) Repetition(*)
+data = [1,2,3]
+result = data * 3
+print(result)
+
+# iii) Membership Operators
+# a) in
+number = [1,2,3,4,5,6]
+num1 = 2 in number
+print(num1)
+num2 = 7 in number
+print(num2)
