@@ -48,72 +48,62 @@ for different technology domains such as:
 
 This repository will gradually contain:
 
-🐍 Python Fundamentals
-💻 Practice Programs
-🧠 Problem Solving
-🔢 Number Programs
-🔤 String Programs
-📦 Data Structures
-🔄 Conditional Statements
-🔁 Loops
-⚙️ Functions
-🏗️ Object-Oriented Programming
-📁 File Handling
-⚠️ Exception Handling
-📚 Modules & Packages
-🛠️ Python Libraries
-🚀 Mini Projects
-🔥 Real-World Projects
+- 🐍 **Python Fundamentals**
+- 💻 **Practice Programs**
+- 🧠 **Problem Solving**
+- 🔢 **Number Programs**
+- 🔤 **String Programs**
+- 📦 **Data Structures**
+- 🔄 **Conditional Statements**
+- 🔁 **Loops**
+- ⚙️ **Functions**
+- 🏗️ **Object-Oriented Programming**
+- 📁 **File Handling**
+- ⚠️ **Exception Handling**
+- 📚 **Modules & Packages**
+- 🛠️ **Python Libraries**
+- 🚀 **Mini Projects**
+- 🔥 **Real-World Projects**
 
-📈 Learning Progress
-                    🐍 PYTHON JOURNEY
-                           │
-                           ▼
-                  🌱 Python Basics
-                           │
-                           ▼
-                💻 Practice Programs
-                           │
-                           ▼
-                 🧠 Problem Solving
-                           │
-                           ▼
-                    🔄 Control Flow
-                           │
-                           ▼
-                     ⚙️ Functions
-                           │
-                           ▼
-                  📦 Data Structures
-                           │
-                           ▼
-                     🏗️ OOP
-                           │
-                           ▼
-                  🚀 Advanced Python
-                           │
-                           ▼
-                  🔥 Real-World Projects
-                           │
-                           ▼
-                  🤖 AI / ML / Data Science
+---
 
-🛠️ Tools & Technologies
-Programming Language
+# 📈 Learning Progress
 
-🐍 Python
+### 🐍 PYTHON JOURNEY
 
-Development Tools
-💻 VS Code
-🐙 Git
-🐱 GitHub
-🖥️ Command Line / Terminal
-Future Technologies
-📊 NumPy
-🐼 Pandas
-📈 Matplotlib
-🤖 Scikit-learn
-🧠 TensorFlow
-🔥 PyTorch
-🌐 Flask / FastAPI
-🚀 Streamlit
+- 🌱 **Python Basics**
+- 💻 **Practice Programs**
+- 🧠 **Problem Solving**
+- 🔄 **Control Flow**
+- ⚙️ **Functions**
+- 📦 **Data Structures**
+- 🏗️ **Object-Oriented Programming**
+- 🚀 **Advanced Python**
+- 🔥 **Real-World Projects**
+- 🤖 **AI / ML / Data Science**
+
+---
+
+# 🛠️ Tools & Technologies
+
+### 💻 Programming Language
+
+- 🐍 **Python**
+
+### 🧰 Development Tools
+
+- 💻 **VS Code**
+- 🐙 **Git**
+- 🐱 **GitHub**
+- 🖥️ **Command Line / Terminal**
+
+### 🚀 Future Technologies
+
+- 📊 **NumPy**
+- 🐼 **Pandas**
+- 📈 **Matplotlib**
+- 🤖 **Scikit-learn**
+- 🧠 **TensorFlow**
+- 🔥 **PyTorch**
+- 🌐 **Flask / FastAPI**
+- 🚀 **Streamlit**
