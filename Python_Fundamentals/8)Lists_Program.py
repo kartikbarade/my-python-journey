@@ -138,3 +138,18 @@ print(data)
 # number = [1,2,3,4]
 # del number
 # print(number) # NameError
+
+#----------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------#
+#  List Operations
+"""
+List Operations are operations that allow us to combine lists, repeat lists, check elements and
+iterate through the elements of a list.
+The main operations are :
+        i) Concatenation(+)
+       ii) Repetition (*)
+      iii) Membership operators (in, not in)
+       iv) Iterating through lists
+            a)for loop
+            b)while loop
+"""
