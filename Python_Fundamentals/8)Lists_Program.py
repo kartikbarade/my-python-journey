@@ -57,3 +57,26 @@ print(numbers[2][0])
 # 4) using len() function
 numbers = [10,20,30,40,50]
 print(len(numbers))
+
+#----------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------#
+#Modifying Lists
+"""
+Modifying lists:-
+Modifying a list means changing the contents of an existing list.
+since python lists are mutable, we can-
+        1) Changing existing elements
+        2) Add new elements
+        3) Remove elements
+"""
+# 1) Changing existing elements
+numbers = [10,20,30,40]
+print(numbers)
+numbers [1] = 200
+print(numbers)
+
+data = [1,2,3,4,5,6] # Multiple elements can also be change
+data [1:4] = [2.1,3.1,4.1] 
+print(data)
+
+# 2) 
