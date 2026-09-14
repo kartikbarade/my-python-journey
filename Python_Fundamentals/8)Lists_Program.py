@@ -171,3 +171,8 @@ num1 = 2 in number
 print(num1)
 num2 = 7 in number
 print(num2)
+
+# b) not in
+number = [100,200,300,400,500]
+print(700 not in number)
+print(300 not in number)
