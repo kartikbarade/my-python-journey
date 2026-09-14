@@ -48,7 +48,6 @@ for different technology domains such as:
 
 This repository will gradually contain:
 
-```text
 🐍 Python Fundamentals
 💻 Practice Programs
 🧠 Problem Solving
@@ -65,3 +64,56 @@ This repository will gradually contain:
 🛠️ Python Libraries
 🚀 Mini Projects
 🔥 Real-World Projects
+
+📈 Learning Progress
+                    🐍 PYTHON JOURNEY
+                           │
+                           ▼
+                  🌱 Python Basics
+                           │
+                           ▼
+                💻 Practice Programs
+                           │
+                           ▼
+                 🧠 Problem Solving
+                           │
+                           ▼
+                    🔄 Control Flow
+                           │
+                           ▼
+                     ⚙️ Functions
+                           │
+                           ▼
+                  📦 Data Structures
+                           │
+                           ▼
+                     🏗️ OOP
+                           │
+                           ▼
+                  🚀 Advanced Python
+                           │
+                           ▼
+                  🔥 Real-World Projects
+                           │
+                           ▼
+                  🤖 AI / ML / Data Science
+
+🛠️ Tools & Technologies
+Programming Language
+
+🐍 Python
+
+Development Tools
+💻 VS Code
+🐙 Git
+🐱 GitHub
+🖥️ Command Line / Terminal
+Future Technologies
+📊 NumPy
+🐼 Pandas
+📈 Matplotlib
+🤖 Scikit-learn
+🧠 TensorFlow
+🔥 PyTorch
+🌐 Flask / FastAPI
+🚀 Streamlit
