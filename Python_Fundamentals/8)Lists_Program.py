@@ -99,5 +99,11 @@ data = ["kartik",21,"Pune",12200]
 data.insert(2,["ISBM","AIML"])
 print(data)
 
+  # c) extend()
+team = ["Shreya","Omkar","kartik"]
+print(team)
+team.extend(["suyash","rudra","satish"]) # here the elements suyash,rudra,satish are addded individually.
+print(team)
+
 #----------------------------------------------------------------------------------------------#
 
