@@ -266,3 +266,8 @@ print(number)
 numbers = [30, 10, 20]
 result = numbers.sort()
 print(result)           # Output --> None
+
+numbers = [40,10,30,20]
+result = sorted(numbers)
+print(result)
+print(numbers)
