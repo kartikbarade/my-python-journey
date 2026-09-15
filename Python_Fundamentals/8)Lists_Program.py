@@ -186,3 +186,20 @@ for number in numbers:
 numbers = [10, 20, 30, 40]
 for i in range(len(numbers)):
     print(numbers[i])
+
+#----------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------#
+#  Build in list Methods
+"""
+Python provide several bulit in methods specially for workig with list.
+These methods help us add, remove, Search, sort, reversr and copy list elements.
+
+These methods are:
+      a) append()   f) index()
+      b) extend()   g) count()
+      c) insert()   h) sort()
+      d) pop()      i) reverse()
+      e) clear()    j) copy()
+"""
+
+
