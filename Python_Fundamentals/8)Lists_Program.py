@@ -271,3 +271,11 @@ numbers = [40,10,30,20]
 result = sorted(numbers)
 print(result)
 print(numbers)
+
+
+# List functions
+numbers = [40,10,30,20]
+print(len(numbers))
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
