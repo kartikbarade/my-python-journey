@@ -201,5 +201,57 @@ These methods are:
       d) pop()      i) reverse()
       e) clear()    j) copy()
 """
+# append()
+number = [10,20,30]
+number.append(40)
+print(number)
 
+# extend()
+number = [1,2,3,4]
+number.extend([5,6,7,8])
+print(number)
 
+# insert()
+number = [1,2,3,4]
+number.insert(1,5)
+print(number)
+
+# remove
+number = [10, 20, 30, 20, 40]
+number.remove(20)
+print(number)
+
+# pop()
+number = [10,20,30,40]
+number.pop(2)
+print(number)
+
+# clear()
+number = [1,2,3]
+number.clear()
+print(number)
+
+# index()
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+print(fruits.index("Mango"))
+
+# count()
+number = [10, 20, 20, 30, 20, 40]
+print(number.count(20))
+
+# sort()
+number = [50, 20, 40, 10, 30]
+number.sort()
+print(number)
+
+#reverse()
+number = [10, 20, 30, 40]
+number.reverse()
+print(number)
+
+#copy
+number = [10, 20, 30]
+new_number = numbers.copy()
+new_number[0] = 100
+print(number)
+print(new_number)
