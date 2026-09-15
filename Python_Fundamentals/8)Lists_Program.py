@@ -255,3 +255,14 @@ new_number = numbers.copy()
 new_number[0] = 100
 print(number)
 print(new_number)
+
+#----------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------#
+#  Sorting and Reversing 
+number = [10,50,20,30,40]
+number.sort()
+print(number)
+
+numbers = [30, 10, 20]
+result = numbers.sort()
+print(result)           # Output --> None
