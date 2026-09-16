@@ -53,6 +53,36 @@ list = [10,20,30,40]
 list [2] = 50
 print(list)         # Output --> [10, 20, 50, 40]
 
-tuple = (10,20,30,40)
-tuple [2] = 60  
-print(tuple)         # Output --> TypeError: 'tuple' object does not support item assignment
+# tuple = (10,20,30,40)
+# tuple [2] = 60  
+# print(tuple)         # Output --> TypeError: 'tuple' object does not support item assignment
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+"""        Indexing and Slicing 
+
+"""
+# Indexing 
+# positive indexing
+numbers = (10,20,30,40,50)
+print(numbers[0])
+print(numbers[2])
+print(numbers[4])
+
+# negative indexing
+numbers = (10,20,30,40,50)
+print(numbers[-1])
+print(numbers[-2])
+print(numbers[-4])
+
+# slicing
+numbers = (10,20,30,40,50)
+print(numbers[1:4])
+print(numbers[2:])
+print(numbers[0:4:2])
+
+# reverse a tuple
+numbers = (1,2,3,4,5)
+print(numbers[::-1])
+
+
