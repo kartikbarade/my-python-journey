@@ -40,3 +40,19 @@ e_tuple = ()
 print(e_tuple)
 print(len(e_tuple))
 
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+"""
+                                    Tuples vs List
+Both lists and tuples are used to store multiple values in python. main difference is that list are 
+mutable and tuples are immutable.
+"""
+
+# a) Mutability difference
+list = [10,20,30,40]
+list [2] = 50
+print(list)         # Output --> [10, 20, 50, 40]
+
+tuple = (10,20,30,40)
+tuple [2] = 60  
+print(tuple)         # Output --> TypeError: 'tuple' object does not support item assignment
