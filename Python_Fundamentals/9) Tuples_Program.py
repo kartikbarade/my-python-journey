@@ -86,3 +86,34 @@ numbers = (1,2,3,4,5)
 print(numbers[::-1])
 
 
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+"""
+                       Tuple Operations
+Tuple operations allow us to combine, repeat, search and perform calculations
+on tuple elements.
+"""
+
+# a) concatenation 
+tup_1 = (10,20,30)
+tup_2 = (40,50,60)
+result = tup_1 + tup_2
+print(result)
+
+# b) repetition
+data = (1,2,3)
+result = data * 3
+print(result)
+
+# c) Membership Operators
+#      i) in -->
+#     ii) not in -->
+numbers = (1,2,3,4,5,6)
+print(1 in numbers) # True
+print(7 in numbers) # False
+
+print(8 not in numbers) # True
+print(5 not in numbers)
+
+# Built in functions
+
