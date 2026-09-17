@@ -116,4 +116,22 @@ print(8 not in numbers) # True
 print(5 not in numbers)
 
 # Built in functions
+# a) len()
+numbers = (10,20,30,40)
+print(len(numbers))
 
+# b) max()
+numbers = (10,20,30,40,50)
+print(max(numbers))
+
+# c) min()
+numbers = (10,20,30,40,50)
+print(min(numbers))
+
+# d) sum()
+numbers = (10,20,30,40)
+print(sum(numbers))
+
+# e) sorted()
+numbers = (40,10,50,30,20)
+print(sorted(numbers))   
