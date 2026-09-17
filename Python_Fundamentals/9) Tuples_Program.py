@@ -177,3 +177,14 @@ first, *middle , last = data
 print(first)
 print(middle)
 print(last)
+
+"""
+              Nested Tuple
+A nested tuple is a tuple that contains another tuple as one of its elements.
+"""
+# a) tuple inside tuple
+a = ((1,2),(3,4),(5,6))
+print(a[0])
+# b) accessing nested tuple
+print(a[0][0])
+print(a[2][0])
