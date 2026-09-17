@@ -135,3 +135,22 @@ print(sum(numbers))
 # e) sorted()
 numbers = (40,10,50,30,20)
 print(sorted(numbers))   
+
+"""
+                        Tuple Methods
+Python tuples have two built in methods such as count() and index().
+These methods are used to count elements and find the position in a tuple.
+"""
+# a) count()
+numbers = (10,20,30,10,50,30,10,60,70)
+result = numbers.count(10)
+print(result)
+
+# b) index()
+numbers = (10,20,30,40,50)
+result = numbers.index(40)
+print(result)
+
+data = (10,20,30,10,40,50,10)
+print(data.index(10))    # """ the index() method returns the first occurrence, even if the
+                         # value appers multiple times. """
