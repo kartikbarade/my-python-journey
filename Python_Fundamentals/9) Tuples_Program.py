@@ -154,3 +154,26 @@ print(result)
 data = (10,20,30,10,40,50,10)
 print(data.index(10))    # """ the index() method returns the first occurrence, even if the
                          # value appers multiple times. """
+
+"""
+                      Tuple packing and unpacking
+uple packing and unpacking are important concepts in Python that allow us to group
+multiple values into a tuple and extract those values into separate variables.
+"""
+# a) tuple packing 
+student = "kartik",21,"AIML"
+print(student)
+
+# b) tuple unpacking
+student = ("kartik",21,"AIML")
+name, age, branch = student
+print(name)
+print(age)
+print(branch)
+
+# c) extended unpacking
+data = (10,20,30,40,50)
+first, *middle , last = data
+print(first)
+print(middle)
+print(last)
