@@ -51,3 +51,16 @@ student_data = {
 }
 print(student_data.get("name"))
 print(student_data.get("age"))
+
+     # accessing the Missing key
+
+student_data = {
+    "name" : "Kartik"
+}
+print(student_data.get("age"))
+
+     # using default value
+student_data = {
+    "name" : "Kartik"
+}
+print(student_data.get("age","Not Available"))
