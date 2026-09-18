@@ -11,3 +11,26 @@ student = {
       "branch" : "AIML"
 }
 print(student)
+
+# 1) Definition : A dictionary is an unordered collection of data stored as key-value pairs.
+
+student_data = {
+     "name" : "Kartik",
+     "age" : 21,
+     "address" : "Pune",
+     "Stu_ID" : 101,
+     "Branch" : "AIML"
+}
+print(student_data)
+
+# 2) key value Pair concept : 
+""" A dictionary stores in two parts :
+             a) key : A unique identifier used to access a value.
+             b) value : The data associated with the key.   
+"""
+student_data = {
+     "name" : "Kartik",
+     "age" : 21
+}
+print(student_data["name"])
+print(student_data["age"])
