@@ -34,3 +34,20 @@ student_data = {
 }
 print(student_data["name"])
 print(student_data["age"])
+
+# 3) Accesiing Dictionary Elements
+# a) accessing dictionary elements using keys[]
+student_data = {
+     "name" : "Kartik",
+     "age" : 21,
+}
+print(student_data["name"])
+print(student_data["age"])
+
+# b) using the get() method
+student_data = {
+     "name" : "Kartik",
+     "age" : 21,
+}
+print(student_data.get("name"))
+print(student_data.get("age"))
