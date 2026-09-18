@@ -10,3 +10,4 @@ student = {
       "age" : 21,
       "branch" : "AIML"
 }
+print(student)
