@@ -117,3 +117,45 @@ student.update({
     "Friend" : "Kartik"
 })
 print(student)
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# 5) Removing Methods
+# a) pop() method
+student = {
+    "name" : "kartik",
+    "age" : 21,
+    "branch" : "AIML"
+}
+result = student.pop("branch")
+print(result)
+print(student)
+
+employee = {
+    "name" : "satish",
+    "emp_id" : 101
+}
+print(student.pop("salary","Not found"))  # using default value
+
+# b) popitem() method
+student = {
+    "name" : "kartik",
+    "age" : 21,
+    "branch" : "AIML"
+}
+result = student.popitem()
+print(result)
+print(student)
+
+# c) del keyword
+student = {
+    "name" : "kartik",
+    "age" : 21,
+    "branch" : "AIML"
+}
+del student["age"]
+print(student)
+
+# d) clear method
+student.clear
+print(student)
