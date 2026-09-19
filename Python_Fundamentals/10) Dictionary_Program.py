@@ -23,6 +23,9 @@ student_data = {
 }
 print(student_data)
 
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+
 # 2) key value Pair concept : 
 """ A dictionary stores in two parts :
              a) key : A unique identifier used to access a value.
@@ -35,6 +38,8 @@ student_data = {
 print(student_data["name"])
 print(student_data["age"])
 
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
 # 3) Accesiing Dictionary Elements
 # a) accessing dictionary elements using keys[]
 student_data = {
@@ -64,3 +69,51 @@ student_data = {
     "name" : "Kartik"
 }
 print(student_data.get("age","Not Available"))
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# 4) Modifying dictionary in Python
+# a) adding elements to a dictionary
+student = {
+    "name" : "kartik",
+    "age" : 21
+}
+print(student)
+student["branch"] = "AIML"  # here we add new data (new key-value pair)
+print(student)
+
+# b) Updating Values in a Dictionary
+student = {
+    "name" : "kartik",
+    "age" : 21
+}
+print(student)
+student["age"] = 22 # value is updated to 22
+print(student)
+
+# c) update() method
+student = {
+    "name" : "kartik",
+    "age" : 21
+}
+student.update({"branch":"AIML"}) # adding new element
+print(student)
+
+student = {
+    "name" : "kartik",
+    "age" : 21
+}
+student.update({"age":22})  # Updating Existing Values
+print(student)
+
+student = {
+    "name" : "Omkar",
+    "age" : 21
+}
+student.update({
+    "age" : 22,
+    "branch" : "AIML",
+    "Address" : "Latur",
+    "Friend" : "Kartik"
+})
+print(student)
