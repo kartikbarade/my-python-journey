@@ -159,3 +159,37 @@ print(student)
 # d) clear method
 student.clear
 print(student)
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# 6) Dictionary Methods
+"""
+Python provides several built-in dictionary methods that help us access, modify,copy 
+and manage key-value pairs.
+"""
+# a) keys()
+student = {
+    "name" : "kartik",
+    "age" : 21,
+    "branch"  : "AIML",
+    "stu_id" : 13
+}
+print(student.keys())
+
+# b) values()
+student = {
+    "name" : "kartik",
+    "age" : 21,
+    "branch"  : "AIML",
+    "stu_id" : 13
+}
+print(student.values())
+
+# c) items()
+student = {
+    "name" : "kartik",
+    "age" : 21,
+    "branch"  : "AIML",
+    "stu_id" : 13
+}
+print(student.items())
