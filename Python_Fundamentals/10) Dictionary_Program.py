@@ -193,3 +193,11 @@ student = {
     "stu_id" : 13
 }
 print(student.items())
+
+# d) copy()
+student = {
+    "name" : "kartik",
+    "age" : 21
+}
+new_student = student.copy()
+print(new_student)
