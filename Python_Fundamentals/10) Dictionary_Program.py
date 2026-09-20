@@ -201,3 +201,26 @@ student = {
 }
 new_student = student.copy()
 print(new_student)
+
+new_student["age"] = 22  # update age
+print(new_student)
+
+# e) setdefault() Method
+student = {
+    "name" : "kartik",
+    "age" : 21
+}
+result = student.setdefault("age",25)   # The existing value is not changed.
+print(student)
+result = student.setdefault("Branch","AIML")
+print(student) 
+
+# f) fromkeys()
+keys = ["Name","Age","Branch"]
+student = dict.fromkeys(keys)
+print(student)
+
+keys = ["Name","Age","Branch"]
+student = dict.fromkeys(keys,"Not Available")
+print(student)
+
