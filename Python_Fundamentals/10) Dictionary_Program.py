@@ -242,3 +242,34 @@ print(squares)
 
 dict1 = {i:i*i for i in range(15) if i %2 == 0 }
 print(dict1)
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# Looping through dictionary in python
+# loop through key
+student = {
+    "name" : "kartik",
+    "age" : 21,
+    "branch" : "AIML"
+}
+for i in student.keys():
+    print(i)
+
+# loop through value
+student = {
+    "name" : "kartik",
+    "age" : 21,
+    "branch" : "AIML"
+}
+for i in student.values():
+    print(i)
+
+# loop through key-value pairs
+student = {
+    "name" : "kartik",
+    "age" : 21,
+    "branch" : "AIML"
+}
+for key,value in student.items():
+    print(key,value)
+    
