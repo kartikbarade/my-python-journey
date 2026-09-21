@@ -272,4 +272,39 @@ student = {
 }
 for key,value in student.items():
     print(key,value)
-    
+
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# nested dictionary
+students = {
+    "student1" : {
+        "name" : "Kartik",
+        "age" : 21,
+        "branch" :"AIML",
+        "address" : "Solapur"
+    },
+    "student2" : {
+            "name" : "Omkar",
+            "age" : 21,
+            "branch" :"AIML",
+            "address" : "Latur"
+    },
+    "student3" : {
+            "name" : "Suyash",
+            "age" : 22,
+            "branch" :"AIML",
+            "address" : "Satara"
+    }
+}
+print(students) # print all students data
+
+print(students["student1"]["name"]) #accessing the names of all student
+print(students["student2"]["name"])
+print(students["student3"]["name"])
+
+students["student1"]["age"] = 22  # modifying the age
+print(students)
+
+students["student3"]["id"] = 101  # adding new elements
+print(students)
