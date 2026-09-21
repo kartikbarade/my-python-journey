@@ -224,3 +224,21 @@ keys = ["Name","Age","Branch"]
 student = dict.fromkeys(keys,"Not Available")
 print(student)
 
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+
+# Dictionary Comprehension
+   # for loop
+numbers = [1,2,3,4,5]
+squares = {}
+for i in numbers:
+    squares[i] = i**2
+print(squares)
+
+   # Using Dictionary comprehension
+numbers = [1,2,3,4,5]
+squares = {i:i**2 for i in numbers}
+print(squares)
+
+dict1 = {i:i*i for i in range(15) if i %2 == 0 }
+print(dict1)
