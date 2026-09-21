@@ -34,4 +34,27 @@ print(student_data)
 numbers = {1,1,1,2,3,4,5,1,2}
 print(numbers)
 
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# Creating sets
+"""
+In python, we can create sets in 3 different ways.
+         a) using curly braces{}
+         b) using sets constructor set()
+         c) Creating an empty sets
+"""
+
+# a) using curly braces{}
+numbers = {10,20,30,40}
+print(numbers)
+# b) using sets constructor set()
+# numbers = set([10, 20, 30, 20, 10])
+# print(numbers)
+# my_set = set("Python")
+# print(my_set)
+
+# c)Creating an Empty Set
+# emptyset = set()
+# print(emptyset)
+
 
