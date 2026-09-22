@@ -133,3 +133,54 @@ b = {4,5,6,7,8}
 result = a.intersection(b)
 print(result)
 print(a & b)  # using & operator
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# Set Methods
+# a) copy()
+a = {1,2,3}
+b = a.copy()
+print(b)
+
+# b) isdisjoint()
+a = {1,2,3}
+b = (4,5,6)
+print(a.isdisjoint(b))
+
+c = {1,2,3}
+d = {3,4,5}
+print(c.isdisjoint(d))
+
+# c) issubset()
+a = {1,2,3}
+b = {1,2,3,4,5,6}
+print(a.issubset(b))
+
+# d) issuperset()
+a = {1,2,3,4,5,6}
+b = {1,2,3}
+print(a.issuperset(b))
+
+# e) update()
+a = {10,20,30}
+b = {40,50,60}
+a.update(b)
+print(a)
+
+# f) intersection_update()
+a = {1,2,3,4}
+b = {3,4,5,6}
+a.intersection_update(b)
+print(a)
+
+# g) difference_update()
+a = {1,2,3,4}
+b = {3,4,5,6}
+a.difference_update(b)
+print(a)
+
+# h) symmetric_difference_update
+a = {1,2,3,4}
+b = {3,4,5,6}
+a.symmetric_difference_update(b)
+print(a)
