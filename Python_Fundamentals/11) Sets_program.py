@@ -71,3 +71,34 @@ numbers = {10,20,30}
 numbers.update([40,50,60])
 print(numbers)
 
+# b) removing elements
+#     i)remove()
+numbers = {10,20,30,40}
+numbers.remove(20)
+print(numbers)
+
+#     ii)discard()
+numbers = {10,20,30,40}
+numbers.discard(20)
+print(numbers)
+
+numbers = {10,20,30,40}
+numbers.discard(50)
+print(numbers)
+
+
+#      iii)pop()
+numbers = {40,10,20,30}
+numbers.pop()
+print(numbers)
+
+data = {1,2,3,4}
+removed = data.pop()
+print("Removed :", removed)
+print(data)
+
+#      iv) clear()
+numbers = {1,2,3,4,5}
+numbers.clear()
+print(numbers)
+
