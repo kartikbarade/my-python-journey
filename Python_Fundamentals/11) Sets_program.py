@@ -102,3 +102,34 @@ numbers = {1,2,3,4,5}
 numbers.clear()
 print(numbers)
 
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# Set Operators
+# a) union()
+a = {1,2,3,4,5}
+b = {4,5,6,7,8}
+result = a.union(b)
+print(result)
+print(a|b)    # using | operator
+
+# b) difference
+a = {1,2,3,4,5}
+b = {4,5,6,7,8}
+result = a.difference(b)
+print(result)
+print(a - b)  # using - operator
+
+# c) symmetric difference
+a = {1,2,3,4,5}
+b = {4,5,6,7,8}
+result = a.symmetric_difference(b)
+print(result)
+print(a ^ b)  # using ^operator
+
+# d) intersection
+a = {1,2,3,4,5}
+b = {4,5,6,7,8}
+result = a.intersection(b)
+print(result)
+print(a & b)  # using & operator
