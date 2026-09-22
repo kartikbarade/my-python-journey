@@ -57,4 +57,17 @@ print(numbers)
 # emptyset = set()
 # print(emptyset)
 
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# Adding and Removing Elements
+#  a) adding elements
+#    i) add() method
+numbers = {10,20,30}
+numbers.add(40)
+print(numbers)
+
+#    ii) update() method
+numbers = {10,20,30}
+numbers.update([40,50,60])
+print(numbers)
 
