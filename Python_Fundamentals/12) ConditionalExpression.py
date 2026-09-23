@@ -105,8 +105,9 @@ if a<=b:
 else:
     print(f"The {b} is greater")
 
-#-----------------------------------------------------------
-# if-elif-else
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# c) if-elif-else
 marks = int(input("Enter the marks : "))
 if marks >= 90:
     print("Grade A")
@@ -186,3 +187,30 @@ else:
     print("Invalid Choice")
 
 
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# d) Conditional Expression (Ternary Operator)
+    """# Check Even or Odd"""
+# using if-else
+num = 10
+if num % 2 ==0:
+    result = "Even"
+else:
+    result = "Odd"
+print(result)
+
+# Using Conditional Expression
+num = 10
+result = "Even" if num % 2 == 0 else "odd"
+print(result)
+
+""" Check Pass or Fail"""
+marks = 65
+result = "pass" if marks > 40 else "fail"
+print (result)
+
+""" Maximum of two numbers"""
+a = 10
+b = 20
+max = f"{a} is maximum" if a > b else f"{b} is maximum" 
+print(max)
