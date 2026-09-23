@@ -214,3 +214,61 @@ a = 10
 b = 20
 max = f"{a} is maximum" if a > b else f"{b} is maximum" 
 print(max)
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# e) Nested-if statement
+marks = int(input("Enter your marks"))
+attendance = int(input("Enter your attendance"))
+if marks >= 90:
+    if attendance >= 75:
+        print("Schorship Approved!")
+    else:
+        print("Attendane requirement not met")
+else:
+    print("Marks requirement not met")
+
+#-----------------------------------------------------------
+""" Create a program that checks login credentials.
+    Username = admin
+    Password = 12345
+"""
+username = input("Enter your username : ")
+password = input("Enter your password : ")
+if username == 'admin':
+    print("Username is correct ")
+    if password == '1234':
+        print("Password is correct")
+    else:
+        print("Invalid Password")
+else:
+    print("Invalid Username")
+
+#-----------------------------------------------------------
+"""Check whether a student passed and then display their grade."""
+marks = int(input("Enter your marks"))
+if marks >=40:
+    print("Student passed")
+    if marks >= 90 and marks <=100:
+        print("Grade A")
+    elif marks >=75:
+        print("Grade B")
+    elif marks >= 60:
+        print("Grade C")
+    else:
+        print("Grade D")
+else:
+    print("Fail")
+
+#-----------------------------------------------------------
+"""Check whether a number is positive. If it is positive, check whether it is even or odd."""
+num = int(input("Enter the numbeer"))
+if num >= 0:
+    print("The number is Positive")
+    if num % 2 == 0:
+        print("The number is Even")
+    else:
+        print("The number is Odd")
+else:
+    print("The number is Negative")
+
