@@ -61,11 +61,6 @@ if char == 'a':
     print("You entered a")
 
 
-
-
-
-
-
 #----------------------------------------------------------------------------------------------------
 #----------------------------------------------------------------------------------------------------
 # b) if-else statement
@@ -74,4 +69,40 @@ if num % 2 == 0:
     print("Number is Even")
 else:
     print("Number is Odd")
+    
+#-----------------------------------------------------------
+"""Write a Python program to check whether a number is positive or negative."""
+num = int(input("Enter the number :"))
+if num >= 0:
+    print(f"The {num} is a positive number")
+else:
+    print(f"The {num} is a negative number")
 
+#-----------------------------------------------------------
+"""Take a person's age as input. If the age is 18 or above, print "Eligible to Vote". 
+Otherwise, print "Not Eligible"."""
+age = int(input("Enter your age"))
+if age >=18:
+    print("Eligible to Vote")
+else:
+    print("Not Eligible")
+
+#-----------------------------------------------------------
+"""Take student marks as input. If marks are greater than or equal to 35, print "Pass".
+ Otherwise, print "Fail"."""
+marks = int(input("Enter your marks"))
+if marks >= 35:
+    print("Pass")
+else:
+    print("Fail")
+
+#-----------------------------------------------------------
+"""Take two numbers from the user. Check which number is greater."""
+a = int(input("Enter the 1st num"))
+b = int(input("Enter the 2nd num"))
+if a<=b:
+    print(f"The {a} is greater")
+else:
+    print(f"The {b} is greater")
+
+#-----------------------------------------------------------
