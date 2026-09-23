@@ -16,8 +16,58 @@ age = int(input("Enter the age :-"))
 if age >18:
     print("Candidate are elegible")
 
+#-----------------------------------------------------------
+""" Write a Python program to take a number from the user and check whether the 
+number is positive. If the number is positive, print "Positive Number"."""
+
+num = int(input("Enter the Number :-"))
+if num > 0:
+    print(f'The {num} is positive number')
+
+#-----------------------------------------------------------  
+"""Write a Python program to take a student's marks. If the marks are greater than 
+or equal to 40, print "Student Passed"."""
+marks = int(input("Enter the students marks :- "))
+if marks >=40:
+    print("Student Passed")
+
+#-----------------------------------------------------------  
+"""Write a Python program to take a password from the user. If the password is "python123",
+ print "Login Successful"."""
+password = input("Enter the password : ")
+if password == 'python123':
+    print("Login Successful")
+
+#-----------------------------------------------------------
+"""Write a Python program to take two numbers from the user. If the first number is greater than 
+the second number, print "First number is greater"."""
+num1 = int(input("Enter the 1st number : "))
+num2 = int(input("Enter the 2nd number : "))
+if num1>num2:
+    print("First number is greater")
+
+#-----------------------------------------------------------
+"""Write a Python program to take a number. If the number is divisible by 5, print "Number is 
+divisible by 5"."""
+num = int(input("Enter the number :"))
+if num % 5 == 0:
+    print("Number is divisible by 5")
+
+#-----------------------------------------------------------
+"""Write a Python program to take a character from the user. If the character is "a", print 
+"You entered a"."""
+char = input("Enter a charater : ")
+if char == 'a':
+    print("You entered a")
 
 
+
+
+
+
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
 # b) if-else statement
 num = int(input("Enter the number :- "))
 if num % 2 == 0:
