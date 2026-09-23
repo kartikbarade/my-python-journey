@@ -106,3 +106,83 @@ else:
     print(f"The {b} is greater")
 
 #-----------------------------------------------------------
+# if-elif-else
+marks = int(input("Enter the marks : "))
+if marks >= 90:
+    print("Grade A")
+elif marks >=75:
+    print("Grade B")
+elif marks >= 60:
+    print("Grade C")
+else:
+    print("Fail")
+
+#-----------------------------------------------------------
+"""Student Grade
+Take student marks as input and display the grade:
+90–100: Grade A
+75–89: Grade B
+60–74: Grade C
+40–59: Grade D 
+Below 40: Fail"""
+marks = int(input("Enter the marks : "))
+if marks >=90 and marks <=100 :
+    print("Grade A")
+elif marks >=75   :
+    print("Grade B")
+elif marks >=60:
+    print("Grade C")
+elif marks >=40 :
+    print("Grade D")
+else:
+    print("Fail")
+
+#-----------------------------------------------------------
+"""Take three numbers from the user and print the largest number using if-elif-else."""
+a = int(input("Enter the 1st number"))
+b = int(input("Enter the 2nd number"))
+c = int(input("Enter the 3rd number"))
+
+if a >=b and a>=c:
+    print("A is largest number")
+elif b>=a and b>=c:
+    print("B is largest number")
+else:
+    print("C is largest number")
+
+#-----------------------------------------------------------
+"""Check Temperature
+Take temperature as input:
+Above 35: Very Hot
+25–35: Warm
+15–24: Cool
+Below 15: Cold"""
+temperature = int(input("Enter the temperature"))
+if temperature >= 35:
+    print("Very Hot")
+elif temperature >= 25:
+    print("Warm")
+elif temperature >= 15:
+    print("Cool")
+else:
+    print("Cold")
+
+#-----------------------------------------------------------
+"""Take two numbers and an operator (+, -, *, /). Perform the 
+selected operation using if-elif-else."""
+num1 = int(input("Enter the 1st number : "))
+num2 = int(input("Enter the 2nd number : "))
+operator = input("Enter operator (+, -, *, /): ") 
+
+if operator =='+':
+    print("Result = ", num1 + num2)
+elif operator == '-':
+    print("Result = ", num1 - num2)
+elif operator == '*':
+    print("Result = ", num1 * num2)
+elif operator == '/':
+    print("Result = ", num1 / num2)
+else:
+    print("Invalid Choice")
+
+
