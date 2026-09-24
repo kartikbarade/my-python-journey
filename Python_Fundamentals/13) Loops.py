@@ -119,3 +119,52 @@ sum = 0
 for i in range(1,num+1):
     sum = sum +i
 print(sum) 
+
+# Take a number from the user and print its multiplication table from 1 to 10.
+num = int(input("Enter a number : "))
+for i in range(1,11):
+    result = num * i
+    print(result)
+
+
+# Take n from the user and count how many even numbers are present between 1 and n.
+num = int(input("Enter a number "))
+count = 0
+for i in range(num):
+    if i % 2 == 0:
+        count = count +1
+print(count)  
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# while loop
+""" A while loop repeatedly executes a block of code as long as a condition is True. 
+
+- Syntax: while condition:
+             statements
+"""
+# Example ----
+i =1
+while i<=5:
+    print(i)
+    i = i+1
+
+num = int(input("Enter a number : "))
+i = 1
+while i<=num :
+    print(i)
+    i +=1
+
+# Take a number n from the user and print numbers from n down to 1.
+num = int(input("Enter a number : "))
+while num >=1:
+    print(num)
+    num = num - 1
+
+# Take n from the user and print all even numbers between 1 and n using a while loop.
+n = int(input("Enter n: "))
+i = 1
+while i <= n:
+    if i % 2 == 0:
+      print(i)
+    i = i + 1
