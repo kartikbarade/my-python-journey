@@ -305,3 +305,19 @@ for i in fruits:
     if i == 'Apple':
         continue
     print(i)
+
+
+# c) pass -The pass statement is a special statement in Python 
+# that does nothing when it is executed.
+
+for i in range(6):
+    if i == 3:
+        pass
+    print(i)
+
+
+age = 20
+if age > 18:
+    pass
+else:
+    print("you are under 18")
