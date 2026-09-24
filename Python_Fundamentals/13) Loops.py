@@ -103,3 +103,19 @@ student = {"name":"kartik","rollno":13,"branch":"AIML"}  # Dictionaries
 for key,value in student.items():
     print(f"{key},{value}")
 
+# Write a program to print all even numbers from 1 to 50 using a for loop.
+for i in range(1,51):
+    if i % 2 == 0:
+       print(i)
+
+# Write a program to print all odd numbers from 1 to 50 using a for loop.
+for i in range(1,51):
+    if i % 2 !=0:
+        print(i)   
+
+# Take a number n from the user and calculate the sum of numbers from 1 to n.
+num = int(input("Enter a number : "))
+sum = 0
+for i in range(1,num+1):
+    sum = sum +i
+print(sum) 
