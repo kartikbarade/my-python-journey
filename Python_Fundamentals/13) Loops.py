@@ -218,3 +218,90 @@ for i in range(2,11,2):
 # using negative step
 for i in range (10,0,-1):
     print(i)
+
+# range() with a Multiplication Table
+num = 5
+for i in range(1,11):
+    print(num * i)
+
+print(list(range(5)))
+print(tuple(range(5)))
+print(set(range(5)))
+
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# for loop with else
+
+"""Python allows you to use an else block with a for loop.
+This is a special feature that is very useful when you want to perform an action
+after the loop finishes normally.
+
+- Syntax :
+        for variable in sequence:
+           # loop statement
+        else:
+          #statement
+"""
+
+for i in range(5):
+    print(i)
+else:
+    print("Loop Completed") 
+
+for i in range(5):
+    if i == 3:
+        print(i,"Number Found")
+else:
+    print("Continue search")
+
+#----------------------------------------------#
+numbers = [10,20,30,40,50]
+search = 30
+for i in numbers:
+    if i == search:
+        print("Number Found")
+        break
+else:
+    print("Number not found")
+
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# break and continue statements
+# a) break :- The break statement is used to immediately terminate a loop.
+
+for i in range(6):
+    if i == 3:
+        break
+    print(i)
+
+numbers = [1,2,3,4,5,6]
+search = 4
+for i in numbers:
+    if i ==search:
+        break
+    print(i)
+
+# b) continue :- continue skips the current iteration and moves to the next iteration of the loop.
+for i in range(1,6):
+    if i == 4:
+        continue
+    print(i)
+
+for i in range(1,11):
+    if i % 2 == 0:
+        continue
+    print(i)
+
+numbers = [1,2,3,4,5,6]
+for i in numbers:
+    if i == 3:
+        continue
+    print(i)
+
+fruits = ['Mango','Banana',"Apple","Kiwi","Watermelon","Orange"]
+for i in fruits:
+    if i == 'Apple':
+        continue
+    print(i)
