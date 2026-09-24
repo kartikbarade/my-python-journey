@@ -186,3 +186,35 @@ print(sum)
 for i in range(3):
     for j in range(3):
         print(i,j)
+
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# range() function
+"""The range() function is a built in python function mainly used to generate a sequence of numbers
+   It is very commnly used in for loop.
+
+   - Syntax : range(start,stop,step)
+   - It can be 3 format:
+       1) range(stop)
+       2) range(start,stop)
+       3) range(start,stop,step)
+
+-range(stop)  |  -range(start,stop)   |  -range(start,stop,step)
+ range(5)     |   range(2,7)          |   range(2,11,2)
+    |         |     |                 |     |
+0 1 2 3 4     |  2,3,4,5,6            |   2,4,6,8,10
+"""
+# Example
+for i in range(5):
+    print(i)
+
+for i in range(2,7):
+    print(i)
+
+for i in range(2,11,2):
+    print(i)
+
+# using negative step
+for i in range (10,0,-1):
+    print(i)
