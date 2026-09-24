@@ -168,3 +168,21 @@ while i <= n:
     if i % 2 == 0:
       print(i)
     i = i + 1
+
+# Take n from the user and print all even numbers between 1 and n using a while loop.
+n = int(input("Enter n: "))
+i = 1
+sum = 0
+while i <= n:
+    sum = sum + i
+    i = i+1
+print(sum)
+
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# Nested loop
+"""A nested loop means one loop inside another loop."""
+for i in range(3):
+    for j in range(3):
+        print(i,j)
