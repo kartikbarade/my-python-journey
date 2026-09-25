@@ -321,3 +321,72 @@ if age > 18:
     pass
 else:
     print("you are under 18")
+
+
+# Example on Loops
+# Print 1 to 5 using for loop
+for i in range (1,6):
+    print(i)
+
+# Print 1 to 5 using while loop 
+i = 1
+while i <=5:
+    print(i)
+    i = i+1
+
+# Nested Loop Print a Small Pattern
+for i in range(1,4):
+    for i in range(1,4):
+        print("*", end=" ")
+    print()
+
+# or Loop with else Search Number
+numbers = [10,20,30,40,50]
+search = 30
+for i in numbers:
+    if i == search:
+        print("Number Found")
+        break
+else:
+    print("Number not found")
+
+# break Stop the Loop
+for i in range(1, 6):
+    if i == 4:
+        break
+    print(i)
+
+# continue Skip a Number
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+# pass do nothing
+for i in range(1,6):
+    if i == 3:
+        pass
+    print(i)
+
+
+# Simple Shopping Bill Generator
+print("# --------------------------------------------------------------- #")
+num_product = int(input("Enter the number of Product : "))
+print("# --------------------------------------------------------------- #")
+total_bill = 0
+ 
+for i in range(num_product):
+    print("Product", i + 1)
+    Pro_name = input("Enter product name: ")
+    Pro_price = int(input("Enter price: "))
+    Pro_quantity = int(input("Enter quantity: "))
+    
+    Pro_total = Pro_price * Pro_quantity
+    print("Product Total:", Pro_total)
+    print("-----------------------------------")
+    total_bill = total_bill + Pro_total
+    
+print("# ------------------------------- #")
+print("Shopping Bill")
+print("Final Amount:", total_bill)
+
