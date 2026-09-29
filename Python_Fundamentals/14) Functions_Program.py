@@ -109,3 +109,22 @@ print(add(1000,2000))
 
 sub = lambda a,b: a-b
 print(sub(20,10))
+
+#------------------------------------------------
+# d) map function 
+# Applies a given function to all items in a collection
+# Syntax - map(function,iterable)
+    # Ex 1
+def c_to_f(temp):
+    return (temp *9/5) + 32
+      
+celsics_temps = [23.1,30.1,32.3,31.1,40.4,45.7]
+fahrenheit_temps = list(map(c_to_f,celsics_temps))
+print(fahrenheit_temps)
+
+     # Ex 2
+def double(val):
+    return val * 2
+value = [2,3,4,5]
+result = list(map(double,value))
+print(result)
