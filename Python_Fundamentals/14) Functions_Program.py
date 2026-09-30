@@ -128,3 +128,32 @@ def double(val):
 value = [2,3,4,5]
 result = list(map(double,value))
 print(result)
+
+
+#----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+# Function Parameters and Arguments
+""" When we create a function, we often need to pass data into it.
+This is done using parameters and arguments. 
+
+Parameter ---> A parameter is a variable written inside the function definition.
+def add(a, b):
+    print(a + b)
+
+    # here a and b is the parameter
+
+Argument ---> An argument is the actual value passed when calling the function.
+add(10, 20)
+
+# Here 10 and 20 are arguments.
+"""
+# example --
+def add(a,b):
+    c = a + b
+    print(c)
+add(10,20)
+#-------------------------------#
+def student(name,age):
+    print("Name: ", name)
+    print("Age: ", age)
+student("kartik",21)
