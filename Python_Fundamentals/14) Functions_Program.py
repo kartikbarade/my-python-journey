@@ -157,3 +157,33 @@ def student(name,age):
     print("Name: ", name)
     print("Age: ", age)
 student("kartik",21)
+
+
+# Types of Arguments 
+# a) Positional Arguments
+""" In positional arguments, Values are passed according to their position/order. """
+def student(name,age):
+    print("Name: ", name)
+    print("Age: ", age)
+student("Kartik", 21)   # The order is important
+
+# b) Keyword Arguments
+""" In keyword arguments, we specify the parameter name while passing the value. """
+def student(name, age):
+    print("Name :", name)
+    print("Age :", age)
+student(age = 21, name= "Kartik")  # the order doesn't matter
+
+# c) Default Arguments
+""" A default arguments has a dafault value. If the user dosen't provide that arguments,
+Python used a default values. """
+def student(name="Kartik"):
+    print("Hello ", name)
+student()
+
+def student(name, age=21, city="Pune"):
+    print("Name :", name)
+    print("Age :", age)
+    print("City :" , city)
+
+student("Kartik")
