@@ -215,3 +215,21 @@ def student(**details):
     print("City:", details["city"])
 student(name="Kartik", age=21, city="Pune")
 
+
+#-----------------------------------------------------------------------------------
+# Argumnents passing mechanism
+"""In Python, it is more accurate to say that Python uses "pass-by-object-reference".
+"""
+def change(x):
+    x = 100
+    print(x)
+num =50
+change(num)
+print(num)
+
+def change(numbers):
+    numbers.append(100)
+
+list = [10,20,30,40]
+change(list)
+print(list)
