@@ -187,3 +187,31 @@ def student(name, age=21, city="Pune"):
     print("City :" , city)
 
 student("Kartik")
+
+# d) Variable - length Arguments 
+"""Sometimes we don't know how many arguments the user will pass.
+    i) *args   ii) **kwargs
+"""
+# i) *args
+def numbers(*args):
+    print(args)
+numbers(10,20,30,40,50)
+
+def add(*numbers):
+    total =0
+    for i in numbers:
+        total = total + i
+    print("Total :", total)
+add(10,20,30)
+
+# ii) **kwargs
+def student(**kwargs):
+    print(kwargs)
+student(name = 'kartik', age=21, city="Pune")
+
+def student(**details):
+    print("Name:", details["name"])
+    print("Age:", details["age"])
+    print("City:", details["city"])
+student(name="Kartik", age=21, city="Pune")
+
