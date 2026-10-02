@@ -185,8 +185,8 @@ current_directory = os.listdir()
 print("Files and directories in current directory : ", current_directory)
 
 # c) mkdir()
-import os
-new_directory = "NewFolder"
+# import os
+# new_directory = "NewFolder"
 
 # d) checks whether a file or directory exists
 import os
@@ -208,11 +208,26 @@ print("Command-line arguments : ", sys.argv)
 
 #------------------------------------------------------------
 import sys
-name = sys.argv[1]
-print("Hello, ",name)
+# name = sys.argv[1]
+# print("Hello, ",name)
 
 # c) sys.exit()
 import sys
 print("Program is started")
 sys.exit()
 print("Program is ended")
+
+#-----------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------
+# python packages
+""" A package is a collection of python modules. 
+It is a directory that contains a special file called __init__.py
+"""
+
+from mathoperation_package.addition import add
+from mathoperation_package.subtraction import sub
+
+print("Addition : ",add(10,20))
+print("Subtraction : ",sub(20,10))
+print("Multiplication : ",mul(10,20))
+print("Division : ",div(20,10))
