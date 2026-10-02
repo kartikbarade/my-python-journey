@@ -76,3 +76,24 @@ student.display_student()
 import employee
 print(employee.company)
 employee.display_employee("Kartik", 50000)
+
+#-----------------------------------------------------------------------------------------------
+
+# dir() Function
+""" It is used to find out what names/attributes are available inside an object or module.
+"""
+import math
+print(dir(math))
+print("---------------------------------------------------------------------------------------")
+
+import calculator
+print(dir(calculator))
+print("---------------------------------------------------------------------------------------")
+
+import os
+print(dir(os))
+
+#-----------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------
+import student_result_module
+student_result_module.student_result()
