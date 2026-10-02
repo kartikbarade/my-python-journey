@@ -63,3 +63,16 @@ print("Subtraction : ", calculator.sub(200,100))
 print("Multiplication : ", calculator.mul(10,20))
 print("Division : ", calculator.div(20,0))
 
+
+#-----------------------------------------------------------------------------------------------
+import student
+
+print(student.name)
+print(student.age)
+
+student.display_student()
+
+# Module with a Variable and Function
+import employee
+print(employee.company)
+employee.display_employee("Kartik", 50000)
