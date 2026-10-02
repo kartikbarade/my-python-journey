@@ -105,3 +105,114 @@ print(dir(numbers))
 #-----------------------------------------------------------------------------------------------
 import student_result_module
 student_result_module.student_result()
+
+#-----------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------
+# math module
+import math
+print(math.sqrt(25)) # sqrt()
+print(math.pow(2,3)) # pow()
+print(math.ceil(2.3)) # ceil()
+print(math.floor(2.3)) # floor()
+print(math.factorial(5)) # factorial()
+print(math.gcd(12, 18)) # gcd()
+print(math.lcm(12, 18)) # lcm()
+print(math.pi) # pi
+
+#------------------------------------------------------------
+# Random module
+# a) randint()
+import random
+print(random.randint(1,10))
+
+for i in range(5):
+    print(random.randint(1,100))
+
+
+# b) choice()
+import random
+names = ["Kartik", "Yash", "Omkar","Ashwin","Rohit"]
+print(random.choice(names))
+
+# c) shuffle()
+import random
+numbers = [1,2,3,4,5]
+print("Before shuffle : ", numbers)
+random.shuffle(numbers)
+print("After shuffle : ", numbers)
+
+# d) random()
+import random
+for i in range(5):
+    print(random.random()) # generates a random float number between 0 and 1
+
+#------------------------------------------------------------
+# datetime module
+# a) date()
+import datetime
+today = datetime.date.today()
+print("Today's date : ", today)
+
+# b) time()
+import datetime
+current_time = datetime.datetime.now().time()
+print("Current time : ", current_time)
+
+# c) datetime()
+import datetime
+current_datetime = datetime.datetime.now()
+print("Current date and time : ", current_datetime)
+
+# d) difference between two dates
+import datetime
+date1 = datetime.date(2026, 10, 2)
+date2 = datetime.date(2026, 10, 10)
+difference = date2 - date1
+print("Difference between two dates : ",difference)
+
+#------------------------------------------------------------
+# os module
+# a) getcwd()
+import os
+current_directory = os.getcwd()
+print("Current working directory : ", current_directory)
+
+# b) listdir()
+import os
+current_directory = os.listdir()
+print("Files and directories in current directory : ", current_directory)
+
+# c) mkdir()
+import os
+new_directory = "NewFolder"
+
+# d) checks whether a file or directory exists
+import os
+file_path = "example.txt"
+if os.path.exists(file_path):
+    print(f"{file_path} exists.")
+else:
+    print(f"{file_path} does not exist.")
+
+#------------------------------------------------------------
+# os module
+# a) Python version
+import sys
+print("Python version : ", sys.version)
+
+# b) sys.argv
+import sys
+print("Command-line arguments : ", sys.argv)
+
+#------------------------------------------------------------
+import sys
+name = sys.argv[1]
+print("Hello, ",name)
+
+# c) sys.exit()
+import sys
+print("Program is started")
+sys.exit()
+print("Program is ended")
