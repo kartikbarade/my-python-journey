@@ -12,3 +12,11 @@ print(f"I'm {age} year's old")
 #Address of the student
 address = "Pirangut, Tal-Mulshi, Dist-Pune, Maharashtra, India"
 print(f"My address is:- {address}")
+
+# Employee details
+name_employee = "Rohit"
+age_employee = 25
+address_employee = "Pune, Maharashtra, India"
+print(f"Employee name is:- {name_employee}")
+print(f"Employee age is:- {age_employee}")
+print(f"Employee address is:- {address_employee}")
