@@ -83,3 +83,43 @@ for i in name:
 marks = frozenset([10, 20, 30, 40, 50])
 print(f"The marks of students is :- {marks}")
 print(type(marks))
+
+#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
+# practce of all data types 
+
+a = 50
+print(f"The value of the a is:- {a}")
+print(type(a))
+
+b = 49.3
+print(f"The value of the b is:- {b}")
+print(type(b))
+
+c = 6 + 3j
+print(f"The value of the c is:- {c}")
+print(type(c))
+
+student = ["kartik", "yash", "omkar"]
+print(f"The names of students is :- {student}")
+print(student[1])
+print(type(student))
+
+number = (10, 20, 30, 40, 50)
+print(f"The numbers of students is :- {number}")
+print(number[3])
+print(type(number))
+
+marks = range(10)
+print(f"The range of the marks is :- {marks}")
+print(type(marks))
+
+fruits = {"apple":"red", "banana":"yellow", "grapes":"green"}
+print(f"The fruits and their colors is :- {fruits}")
+print(fruits["banana"])
+print(type(fruits))
+
+forts = {"Rajgad", "Sinhagad", "Torna", "Pratapgad", "Raigad"}
+print(f"The forts of Maharashtra is :- {forts}")
+for i in forts:
+    print(i)
