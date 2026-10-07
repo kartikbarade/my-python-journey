@@ -136,4 +136,30 @@ count(2)-> removed
 count(3)-> removed   
 """
 
+#Find the sum of digits of a number
+def sum_of_digit(n):
+    if n == 0:
+        return 0
+    else:
+        return (n%10) + sum_of_digit(n//10)
+print(sum_of_digit(5432))
+
+# Count the number of digits
+def count_digit(n):
+    if n<10:
+        return 1
+    else:
+        return 1 + count_digit(n//10)
+print(count_digit(24))
+
+# Find the power of a number
+def calculate_power(base,power):
+    if power == 0:
+        return 1
+    if power < 0:
+        return 1 / calculate_power(base,-power)
+    else:
+        return base * calculate_power(base, power-1)
+print(calculate_power(2,5))
+
 
