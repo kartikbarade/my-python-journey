@@ -82,6 +82,7 @@ print("Using recursion",sum(5))
 """    Call Stack of Recursion in Python
 When a function is called,Python puts that function's information into a stack. 
 When the function finishes,it is removed from the stack.
+A stack follows LIFO ---> Last in First Out
 
 """
 # example 
@@ -93,9 +94,46 @@ def count(n):
 count(3)
 """ 
     -----How the Call Stack Works-----
-    
+> when we call : count(3) a python creates a stack frame:
+                --------------
+                |   count(3) |
+                --------------
 
+> after the count(3) calls count(2)
+               -------------
+               | count(2)  |
+               -------------
+               | count(3)  | 
+               -------------
 
+> Then count(1)
+                -------------
+                | count(1)  |
+                -------------
+                | count(2)  |
+                -------------
+                | count(3)  | 
+                -------------
+
+and finally count(0)
+                -------------
+                | count(0)  |
+                -------------
+                | count(1)  |
+                -------------
+                  count(2)  |
+                -------------
+                | count(3)  | 
+                -------------
+
+> when count(0) reaches the base case, it returns.
+
+> Now the stacks starts unwinding
+
+count(0)-> removed
+count(1)-> removed
+count(2)-> removed
+count(3)-> removed   
 """
 
 
