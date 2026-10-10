@@ -162,4 +162,54 @@ def calculate_power(base,power):
         return base * calculate_power(base, power-1)
 print(calculate_power(2,5))
 
+#--------------------------------------------------------------------------------------------
 
+# Types of Recursion
+""" a) Direct recursion 
+When a function calls itself directly, it is called direct recursion.
+"""
+def fun(n):
+    if n == 0:
+        return
+    print(n)
+    fun(n-1)
+fun(3)
+
+""" b) Indirect recursion
+When one function calls another function, which eventually calls the first function again, 
+it is called indirect recursion (or mutual recursion).
+"""
+def fun1(n):
+    if n<=0:
+        return
+    print("Function 1:",n)
+    fun2(n-1)
+
+def fun2(n):
+    if n<=0:
+        return
+    print("Function 2:",n)
+    fun1(n-1)
+fun1(3)
+
+""" c) tail recursion
+When the recursive function call is the last operation performed by the function, 
+it is called tail recursion.
+"""
+def count(n):
+    if n == 0:
+        return
+    print(n)
+    count(n-1) # last operation
+count(3)
+
+""" d) Head recusion
+When a function calls itself first and performs its main 
+operation after the recursive call returns, it is called head recursion.
+"""
+def count(n):
+    if n == 0:
+        return
+    count(n - 1)
+    print(n)  # After recursive call
+count(3)
